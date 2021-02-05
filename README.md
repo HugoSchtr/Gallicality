@@ -40,7 +40,7 @@ Par exemple, pour récupérer les folios 7 à 20 du [Horla](https://gallica.bnf.
 édité par la librairie Ollendorff, en 1908, à Paris, et conservé à la Bibliothèque nationale de France :
  
 ```
-python gallicality query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata
+python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata
 ```
 
 Il est possible de récupérer les images en TIFF avec l'option -t ou --tif 
