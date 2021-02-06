@@ -24,7 +24,7 @@ metadata de l'identifiant ark.
 
 Une seule commande est disponible : query
 
-Pour exécuter le script :
+## Pour exécuter le script :
 
 ```
 python gallicality.py query ark from_f to_f directory_name csv_file_name
@@ -43,7 +43,7 @@ Par exemple, pour récupérer les folios 7 à 20 du [Horla](https://gallica.bnf.
 python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata
 ```
 
-Il est possible de récupérer les images en TIFF avec l'option -t ou --tif 
+### Il est possible de récupérer les images en TIFF avec l'option -t ou --tif 
 
 ```
 python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata -t
@@ -53,7 +53,7 @@ Ou bien :
 python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata -tif
 ```
 
-Ou en PNG avec l'option -p ou --png
+### Ou en PNG avec l'option -p ou --png
 
 ```
 python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata -p
