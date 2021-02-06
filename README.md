@@ -36,7 +36,7 @@ python gallicality.py query ark from_f to_f directory_name csv_file_name
 * directory_name : nom du nouveau dossier créé, dans lequel seront enregistrées les images. 
 * csv_file_name : nom du fichier csv créé où sont regroupées les métadonnées.
 
-Par exemple, pour récupérer les folios 7 à 20 du [Horla](https://gallica.bnf.fr/ark:/12148/bpt6k9923506/) de Guy de Maupassant,
+Par exemple, pour récupérer les images des folios 7 à 20 en JPEG du [Horla](https://gallica.bnf.fr/ark:/12148/bpt6k9923506/) de Guy de Maupassant,
 édité par la librairie Ollendorff, en 1908, à Paris, et conservé à la Bibliothèque nationale de France :
  
 ```
