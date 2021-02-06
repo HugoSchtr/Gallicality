@@ -68,26 +68,40 @@ python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metad
 
 Pour faire fonctionner ce script :
 
-Téléchargez-le et déplacez-le dans un nouveau dossier.
-Dans ce dossier, créez un nouvel environnement virtuel qui sera utilisé
-pour installer les librairies nécessaires au fonctionnement du script et dans lequel vous l'exécuterez. 
-Il est également possible d'utiliser un autre environnement virtuel que vous avez créé précédemment. 
+## Linux (Ubuntu/Debian) : 
 
-Les librairies à télécharger dans l'environnement virtuel que vous utilisez sont les suivantes : 
+Téléchargez ou clonez ce repository Github sur votre machine, au sein du dossier de votre choix.
+Dans ce dossier, créez un nouvel environnement virtuel qui sera utilisé
+pour installer les librairies nécessaires au fonctionnement du script et dans lequel il sera exécuté.
+
+Pour cela, une fois dans votre dossier, ouvrez un terminal et tapez la commande suivante pour créer
+un nouvel environnement virtuel :
+
+```
+virtualenv le_nom_de l'environnement_virtuel_que_vous_aurez_choisi -p python3
+```
+
+Pour l'activer, tapez la commande suivante : 
+
+```
+source le_nom_de l'environnement_virtuel_que_vous_aurez_choisi/bin/activate
+```
+
+Les librairies à télécharger dans l'environnement virtuel, une fois que celui-ci est activé, sont les suivantes : 
 
 * requests
 * click
 * Pillow
 
-Vous pouvez les retrouver dans requirements.txt
+L'installation peut se faire grâce au fichier requirements.txt avec la commande suivante, dans le terminal :
+
+```
+pip install -r requirements.txt
+```
+
+### Quelques informations sur la librairie Pillow
 
 Pillow est une librairie permettant d'ouvrir, manipuler et sauvegarder des formats d'images. 
 Le script utilise ici le module Image de Pillow.
 Voir le site officiel de Pillow : https://pillow.readthedocs.io/en/stable/index.html
 Documentation spécifique à l'installation : https://pillow.readthedocs.io/en/stable/installation.html
-
-Pour l'installer, une fois que vous êtes dans un environnement virtuel : 
-
-```
-pip install Pillow
-```
