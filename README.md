@@ -47,6 +47,9 @@ Il est possible de récupérer les images en TIFF avec l'option -t ou --tif
 
 ```
 python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata -t
+```
+Ou bien :
+```
 python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata -tif
 ```
 
@@ -54,6 +57,9 @@ Ou en PNG avec l'option -p ou --png
 
 ```
 python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata -p
+```
+Ou bien :
+```
 python gallicality.py query ark:/12148/bpt6k9923506 7 20 le_horla le_horla_metadata --png
 ```
 
